@@ -10,7 +10,7 @@ h1{
 p{
     color: dimgray;
 }
-.name-heighlight{
+.orange-heighlight{
     color: #FFA331;
 }
 .half-width{
@@ -44,6 +44,30 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.dream-img img{
-    width: 40%;
+.single-experience{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-size: 85px 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.footer-text p{
+text-align: center;
+font-size: 12px;
 }
